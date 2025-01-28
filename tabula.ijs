@@ -11,7 +11,7 @@ require 'math/uu/handy4uu'
 coclass 'tabby'
 coinsert 'jgl2'
 
-PARENTDIR=: (zx i:'/'){.zx=.jpathsep>(4!:4<'zx'){4!:3''[zx=.''
+PARENTDIR=: ({.~ i:&'/') jpathsep>(4!:4<'PARENTDIR'){4!:3''[PARENTDIR=: ''
 onload_z_=: empty
 startonload_z_=: start_tabby_
 
